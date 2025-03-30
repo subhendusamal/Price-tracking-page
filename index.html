@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price tracking page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="headre.css">
+    <link rel="stylesheet" href="footer.css">
 
  
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +36,51 @@
 
 </head>
 <body>
+
+    <div class="header"> 
+        <header>
+        <div class="logo"> <a href="#"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
+        <div class="middle"> <nav>
+             <ul class="nav-links">
+            <li><a href="#"><div class="Search"><img src="searchicon.png" alt=""> <input type="search" placeholder="Search a Gadget"></input></div></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Compare</a></li>
+            <li><a href="#">Price tracker</a></li>
+            <li><a href="#">Tech news</a></li>
+             </ul> 
+        </nav></div>
+
+
+        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon" onclick="toggleDropdown()" ></a></button>
+
+      
+       
+    </header>
+    
+    
+    <div class="dropdown-profile">
+       
+       
+        <div class="dropdown-content-profile" id="dropdown-content-profile">
+            <div class="triangle"></div>
+            <div class="order-list" >
+               <a href=""> <span class="pro-set">Profile and settings</span></a>
+               <hr class="one">
+               <a href=""> <span class="wish">Wishlist</span></a>
+               <hr class="two">
+               <a href=""> <span class="sup-cont">Support and Contact</span></a>
+               <hr class="three">
+               <a href=""> <span class="log">Log out</span></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
     <div class="main">
    <div class="header-text">
      <p class="normal">Hey <span class="zilla-text"> Deal hunter!</span></p>
@@ -48,5 +96,43 @@
 <div class="honey"><img src="honey-bee.png" alt=""></div>
 <div class="arrow"><img src="arrow.png" alt=""></div>
 </div>
+
+
+
+
+
+
+<div class="footer">
+    <hr>
+    <footer>
+        <div class="f-left"> <span class="span-1">Zenspec</span>
+            <p> <span class="span1-1">© 2025, Zenspec.tech</span><br><span class="span1-2">All rights
+                    reserved.</span></p>
+        </div>
+
+        <div class="f-middle">
+            <p>About us <br>Contact us <br>Terms and conditions.</p>
+        </div>
+
+        <div class="f-right">
+            <p>Crafted with</p>
+            <div class="heart"><video autoplay loop muted src="zenspec.heart.mp4"></video>
+                <div class="overlay"></div>
+            </div>
+
+
+
+            <div class="social">
+                <button><i class="fa-brands fa-facebook"></i></button>
+                <button><i class="fa-brands fa-linkedin"></i></button>
+                <button><i class="fa-brands fa-youtube"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="profile.js"></script>
 </body>
 </html>

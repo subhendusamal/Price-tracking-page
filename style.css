@@ -13,26 +13,31 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 705px;
+    top: 70px;
+    height: 780px;
    
 }
+
 .header-text{
     display: flex;
     position: absolute;
     top: 45px;
     left: 163px;
 }
+
 .dot-box{
     position: absolute;
     top: 48px;
     left: 353px;
-    /* margin: 0;padding: 0; */
+   
 }
+
 .dot-box video{
   
     height: 80px;
     width: 200px;
 }
+
 .normal{
     color: #000;
     font-family: Poppins;
@@ -42,6 +47,7 @@ body{
     line-height: 80px ; 
     width: 1200px;
 }
+
 .zilla-text{
     margin-left: -1.6px;
     color: #000;
@@ -51,6 +57,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%;
 }
+
 .oops{ 
    
     position: absolute;
@@ -64,6 +71,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; 
 }
+
 .maincont{
     position: absolute;
     top: 220px;
@@ -72,6 +80,7 @@ line-height: 150%;
     height: 100px;
 
 }
+
 .maincont p{
     color: #000;
 font-family: "Potta One";
@@ -87,20 +96,24 @@ line-height:  54.5px ;
     top: 82.5px;
     left: 1281.5px;
 }
+
 .error img{
     height: 92px;
     width: 92px;
 }
+
 .honey{
     position: absolute;
     top: 157.5px;
     left: 885px;
 }
+
 .honey img{
     height: 452px;
     width: 452px;
    
 }
+
 .lastpara{
 
     position: absolute;
@@ -108,6 +121,7 @@ line-height:  54.5px ;
     left: 516px;
     z-index: 10;
 }
+
 .lastpara a{
     color: #07F;
     font-family: Poppins;
@@ -117,6 +131,7 @@ line-height:  54.5px ;
     line-height: 150%; 
     text-decoration: none;
 }
+
 .lastpara span{
     margin-left: 4px;
     color: #000;
@@ -126,6 +141,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 150%; 
 }
+
 .arrow{
     position: absolute;
     top: 420px;
@@ -133,7 +149,15 @@ line-height: 150%;
 
  
 }
+
 .arrow img{
     height: 325px;
     width: 325px;
 } 
+
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index:2000;
+}
